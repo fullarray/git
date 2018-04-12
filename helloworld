@@ -25,3 +25,6 @@ following commands: "git flow feature"
                       (the above will list all feature branches)
                     Then do:
                     "git flow feature publish myfeaturename"
+
+To finish the new "feature/myfeaturename" branch, issue the following 
+command:  "git flow feature finish myfeaturename"
