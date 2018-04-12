@@ -18,3 +18,13 @@ Fill in the prompts and choices.
 
 Finally, issue the command: "git checkout feature/myfeaturename".
 
+New feature add 11:42pm.
+
+To do push new "feature/myfeaturename" branch to github, issue the 
+following commands: "git flow feature"
+                      (the above will list all feature branches)
+                    Then do:
+                    "git flow feature publish myfeaturename"
+
+To finish the new "feature/myfeaturename" branch, issue the following 
+command:  "git flow feature finish myfeaturename"
