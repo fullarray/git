@@ -1,3 +1,20 @@
 hello world
 
 This is a my brand new paragraph in issue-bug01
+
+Currently "git branch" shows:
+   master
+   develop
+Change to "develop" branch by issuing the "git checkout develop" 
+command.
+
+Next to enable "feature/myfeaturename" from develop, you need to setup 
+first the environment by issuing the the command:  "git flow init"
+
+To setup feature branch, first run from "develop" 
+branch "git flow feature start 'myfeaturename'".
+
+Fill in the prompts and choices.
+
+Finally, issue the command: "git checkout feature/myfeaturename".
+
