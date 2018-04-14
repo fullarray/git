@@ -13,24 +13,24 @@
 > docker exec -it app1 /bin/bash
 
 5. ### Once inside the container, npm install the nodes in /data
-...> cd /data
-...> npm install node-red-contrib-chatbot
-...> exit
+... > cd /data
+... > npm install node-red-contrib-chatbot
+... > exit
 
 6. ### Restart the container to load the new nodes
-...> docker stop mynodered
-...> docker start mynodered
+... > docker stop mynodered
+... > docker start mynodered
 
 # The below is not necessary, it's for representation only
 
 1. # Start docker
-...> docker start app1
+... > docker start app1
 
 2. # Stop docker
-...> docker stop app1
+... > docker stop app1
 
 3. # Experimental
-...> docker restart app1
+... > docker restart app1
 
 
 -------------------------
