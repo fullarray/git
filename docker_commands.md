@@ -15,6 +15,8 @@
 5. ### Once inside the container, npm install the nodes in /data
 > cd /data
 > npm install node-red-contrib-chatbot
+  or
+> npm install node-red-bluemix-nodes & npm install node-red-watson-node
 > exit
 
 6. ### Restart the container to load the new nodes
