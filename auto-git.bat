@@ -8,13 +8,13 @@ cd %UserInputPath%
 ::set /p UserInputPath=Enter your project directory path?
 
 ::# switch to branch you want to use
-git checkout develop
+::git checkout develop
 ::# add all added/modified files
 git add .
 ::# commit changes
 ::set /p CommitMessage=What would you like to say on your commit?
 ::read commitMessage
-git commit -am "Auto-log tool by fullarray %DATE% %TIME%"
+git commit -m "Auto-log tool by fullarray %DATE% %TIME%"
 ::# push to git remote repository
 git push origin develop
 ::###########################
