@@ -14,12 +14,13 @@ git add .
 ::# commit changes
 ::set /p CommitMessage=What would you like to say on your commit?
 ::read commitMessage
-git commit -m "Auto-log tool by fullarray %DATE% %TIME%"
+set Timestamp = %date:~4,2%%date:~7,2%%date:~10,4%_%time:~0,2%%time:~3,2%%time:~6,2%
+git commit -m "Auto-log tool by fullarray %Timestamp%"
 ::# push to git remote repository
 git push origin develop
 ::###########################
 ::echo %CommitMessage% 
-timeout /t 10
+timeout /t 15
 goto loop
 echo Press Enter...
 
