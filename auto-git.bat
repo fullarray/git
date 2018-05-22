@@ -20,7 +20,7 @@ git commit -m "Added new code %Timestamp%"
 git push origin develop
 ::###########################
 ::echo %CommitMessage% 
-timeout /t 60
+timeout /t 180
 goto loop
 echo Press Enter...
 
