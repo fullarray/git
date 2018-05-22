@@ -15,7 +15,7 @@ git add .
 ::set /p CommitMessage=What would you like to say on your commit?
 ::read commitMessage
 set Timestamp=%date:~4,2%%date:~7,2%%date:~10,4%_%time:~0,2%%time:~3,2%%time:~6,2%
-git commit -m "Auto-log tool by fullarray %Timestamp%"
+git commit -m "Added new code %Timestamp%"
 ::# push to git remote repository
 git push origin develop
 ::###########################
