@@ -1,7 +1,17 @@
 hello world
+<<<<<<< HEAD
 
 Adding stuff
 
+=======
+hello world!
+Hi tthere
+I'm writing code
+This is a new line.
+UPdate lines.
+UPdate log tool.
+This is a cool tool.
+>>>>>>> 11cf0de5fe7f9b85935db5bb4b510546eef144ea
 This is a my brand new paragraph in issue-bug01
 
 Currently "git branch" shows:
