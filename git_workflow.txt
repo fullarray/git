@@ -1,0 +1,56 @@
+***************************
+  Perfect scenario for git commits. Repository has to be created in Github.com first.
+***************************
+
+Run git init. This sets up a local repository in the folder you're in.
+
+Run git remote add [alias] https://github.com/[gitUserName]/[RepoName].git. [alias] can be anything you want. The [alias] is meant to tie to the local repository, so the machine name works well for an [alias]. The URL can be found on github.com, along the top ensure that the HTTP button out of HTTP|SSH|Git Read-Only is clicked. The git:// URL didn't work for me.
+
+Run git pull [alias] master. This will update your local repository and avoid some merging conflicts.
+
+Run git add .
+
+Run git commit -m 'first code commit'
+
+Run git push [alias] master
+
+
+
+########## Git Flow #######
+
+Git flow init
+
+git flow feature start "myfeaturename"
+
+[Fill out the prompts on defaults mostly]
+
+git branch "myfeaturename"
+
+
+git branch
+   master
+   develop
+   feature/myfeaturename
+
+git checkout feature/myfeaturename
+
+[make changes to file, save it]
+
+git commit -am "made changes to file"
+
+[Assuming that "git remote add origin (github.com repo link)"]
+
+git checkout develop
+
+git merge feature/myfeaturename
+
+git push origin develop
+
+
+###################
+
+(Go to github to make a pull request)
+
+choose the merging branch ("master" and "develop" likely)
+
+
