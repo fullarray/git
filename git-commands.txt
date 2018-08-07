@@ -1,0 +1,86 @@
+1 Show branches 
+git branch
+develop
+master
+
+2 Switch to develop if not currently selected 
+git checkout develop
+
+3 Switch to feature branch (if it does not exist follow below)
+	git flow feature start a-new-feature
+	Switched to a new branch 'feature/a-new-feature'
+
+4 git status
+
+5 git add -A
+
+6 git commit -am "Added new feature"
+
+7 Switch back to develop branch 
+	git checkout develop
+
+8 Switch back to feature/a-new-feature(if it exists, follow below)
+	git checkout feature/a-new-feature
+
+9 ssh-keygen -t rsa -C 'name@yourdomain.com'
+
+10 git remote add origin git@github.com:fullarray/gitBranchName.git
+
+11 git remote -v
+
+12 git checkout master
+
+13 git push origin master
+
+14 git push origin develop
+
+15 git flow feature a-new-feature
+
+16 git flow feature publish a-new-feature (this will make this branch visible in github.com)
+
+17 git commit -am "updated the feature"
+
+18 git push origin feature/a-new-feature
+
+19 git status
+
+20 git flow feature finish a-new-feature
+   a message like this will show: "Merge branch 'feature/a-new-feature' into develop"
+   this will merge into the branch 'develop'
+	
+21 set picture
+![a cool picture](http://url/to/img.png)
+
+
+-----------------------
+Change git user in cli
+
+1 ssh-keygen -t rsa -C "your-email-address"
+
+2 Be careful that you don't over-write your existing key for your personal account. Instead, when prompted, save the file as id_rsa_COMPANY. In my case, I've saved the file to ~/.ssh/id_rsa_nettuts
+
+3 Next, login to your second GitHub account, browse to "Account Overview," and attach the new key, within the "SSH Public Keys" section. To retrieve the value of the key that you just created, return to the Terminal, and type: vim ~/.ssh/id_rsa_COMPANY.pub. Copy the entire string that is displayed, and paste this into the GitHub textarea. Feel free to give it any title you wish
+
+4 touch ~/.ssh/config
+  vim config
+
+5 Add to config file
+  #Default GitHub
+  Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+  
+6 Append to config file
+  Host github-COMPANY
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_COMPANY
+
+1 git remote set-url origin https://USERNAME@github.com/USERNAME/PROJECTNAME.git
+
+2 git push
+
+3 To ensure that the commits appear as performed by USERNAME, one can setup the user.name and user.email for this project, too:
+  git config user.name USERNAME
+  git config user.email USERNAME@example.com
