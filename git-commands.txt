@@ -22,8 +22,21 @@ git checkout develop
 8 Switch back to feature/a-new-feature(if it exists, follow below)
 	git checkout feature/a-new-feature
 
-9 ssh-keygen -t rsa -C 'name@yourdomain.com'
+9 Go to settings in your repo, and under settings add keys by first running the commands below: 
 
+      ssh-keygen -t rsa -C 'name@yourdomain.com'
+      
+      If there are multiple accounts, when prompted, save the file as id_rsa_COMPANY
+      
+      If there are multiple accounts, the first rsa_keys file will be by default named as: 
+         rsa_keys.pub
+      If you created the rsa_keys file custom, your key will look like:
+      	 rsa_keys_CompanyOrYourName.pub
+     
+      Once identified copy the keys from the file, and paste on github repo to allow [push] to github:
+      	copy rsa key from vim ~/.ssh/id_rsa_COMPANYorYourName.pub [linux]
+      	copy rsa key from notepad C:\Users\yourusername\.ssh\id_rsa_COMPANYorYourUserName.pub [windows]
+      
 10 git remote add origin git@github.com:fullarray/gitBranchName.git
 
 11 git remote -v
@@ -57,7 +70,7 @@ Change git user in cli
 
 1 ssh-keygen -t rsa -C "your-email-address"
 
-2 Be careful that you don't over-write your existing key for your personal account. Instead, when prompted, save the file as id_rsa_COMPANY. In my case, I've saved the file to ~/.ssh/id_rsa_nettuts
+2 Be careful that you don't over-write your existing key for your personal account. Instead, when prompted, save the file as id_rsa_COMPANY. In my case, I've saved the file to ~/.ssh/id_rsa_yourcomanyname
 
 3 Next, login to your second GitHub account, browse to "Account Overview," and attach the new key, within the "SSH Public Keys" section. To retrieve the value of the key that you just created, return to the Terminal, and type: vim ~/.ssh/id_rsa_COMPANY.pub. Copy the entire string that is displayed, and paste this into the GitHub textarea. Feel free to give it any title you wish
 
