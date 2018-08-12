@@ -14,8 +14,6 @@ Run git commit -m 'first code commit'
 
 Run git push [alias] master
 
-
-
 ########## Git Flow #######
 
 Git flow init
