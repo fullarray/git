@@ -24,7 +24,7 @@
 > docker stop mynodered
 > docker start mynodered
 
-# The below is not necessary, it's for representation only
+# The below is not necessary. It's for representation only
 
 1. # Start docker
 > docker start app1
