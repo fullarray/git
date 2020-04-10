@@ -53,5 +53,5 @@ choose the merging branch ("master" and "develop" likely)
 
 ####################
 
-This is a new line added inside develop.
+These are new lines added inside develop branch.
 
