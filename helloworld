@@ -1,8 +1,7 @@
 <<<<<<< HEAD
 
 Adding stuff
-
-==============
+=================
 hello worlds
 This is an edit done in the hotfix-1.0.0
 I'm writing code
@@ -38,3 +37,7 @@ following commands: "git flow feature"
 
 To finish the new "feature/myfeaturename" branch, issue the following 
 command:  "git flow feature finish myfeaturename"
+----------------------------------------
+
+4/13/2020 Edit into develop branch.
+
