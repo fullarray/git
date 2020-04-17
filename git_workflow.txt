@@ -1,5 +1,5 @@
 ***************************
-  Perfect scenario for git commits. Repository has to be created in Github.com first.
+Perfect scenario for git commits. Repository has to be created in Github.com first.
 ***************************
 
 Run git init. This sets up a local repository in the folder you're in.
@@ -54,4 +54,9 @@ choose the merging branch ("master" and "develop" likely)
 ####################
 
 These are new lines added inside develop branch.
+
+
+####################
+
+Added line in release-0.0.2
 
