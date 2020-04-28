@@ -6,9 +6,9 @@ hello worlds
 This is an edit done in the hotfix-1.0.0
 I'm writing code
 This is a new line.
-UPdate lines.
-UPdate log tool.
-This is a cool tool.
+UPdate lines
+UPdate log tools
+This is a cool tools
 This is a my brand new paragraph in issue-bug01
 
 Currently "git branch" shows:
@@ -27,7 +27,7 @@ Fill in the prompts and choices.
 
 Finally, issue the command: "git checkout feature/myfeaturename".
 
-New feature add 11:42pm.
+New feature add 11:43pm.
 
 To do push new "feature/myfeaturename" branch to github, issue the 
 following commands: "git flow feature"
