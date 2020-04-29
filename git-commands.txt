@@ -1,7 +1,7 @@
-1 Show branches 
-git branch
-develop
-master
+1 Show branches available in the repo 
+  git branch
+  develop
+  master
 
 2 Switch to develop if not currently selected 
 git checkout develop
