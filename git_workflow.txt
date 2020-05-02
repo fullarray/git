@@ -46,17 +46,10 @@ git push origin develop
 
 
 ###################
-
 (Go to github to make a pull request)
-
 choose the merging branch ("master" and "develop" likely)
-
 ####################
-
 These are new lines added inside develop branch.
-
-
 ####################
 
 Added line in release-0.0.2
-
