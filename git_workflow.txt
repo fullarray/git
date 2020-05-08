@@ -53,3 +53,6 @@ These are new lines added inside develop branch.
 ####################
 
 Added line in release-0.0.2
+
+
+Added new api endpoint
