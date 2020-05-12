@@ -28,7 +28,7 @@ Fill in the prompts and choices.
 Finally, issue the command: "git checkout feature/myfeaturename".
 
 New feature add 11:43pm.
-
+i
 To do push new "feature/myfeaturename" branch to github, issue the 
 following commands: "git flow feature"
                       (the above will list all feature branches)
@@ -44,4 +44,6 @@ command:  "git flow feature finish myfeaturename"
 ========================================
 
 4/14/2020 edut into develop branch.
+
+Added new indicators
 
