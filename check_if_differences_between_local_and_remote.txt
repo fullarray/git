@@ -1,0 +1,9 @@
+# check status of local branch
+git status
+
+# check remote URL 
+git remote show origin
+
+# Check if remote and local branch have differences
+git fetch
+git diff master origin/master
