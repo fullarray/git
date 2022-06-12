@@ -2,8 +2,8 @@
 :: Author: fullarray
 :: Description: Auto commit tool every 180 seconds. 
 :: License: MIT License 
-:: Copyright 2012-2020 fullarray
-::############################
+:: Copyright 2012-2020 fullarray - herrj1
+::#####################################
 @echo off
 set UserInputPath=%cd%
 echo Current directory: %UserInputPath%
