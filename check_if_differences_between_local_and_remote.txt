@@ -7,3 +7,6 @@ git remote show origin
 # Check if remote and local branch have differences
 git fetch
 git diff master origin/master
+
+# show local settings tied
+git config --list
