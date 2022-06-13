@@ -66,3 +66,23 @@ Added new api endpoint
 
 
 added brief add on
+# to fix, auth problem:
+# Go to Credential Manager in windows, remove account there.
+
+# listing existing tags
+git tag
+
+# creating tags for releases
+git tag v0.0.1 -m "Updated site to latest underlining technology"
+
+# pushing tags to github from cli
+git push origin v0.0.1
+
+
+######################################
+
+# delete branch
+git branch -d feature/login
+
+# delete remote branch
+git push origin --delete feature/login
